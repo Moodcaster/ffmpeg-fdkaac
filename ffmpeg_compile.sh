@@ -28,7 +28,7 @@ export PKG_CONFIG_PATH
   --enable-libmp3lame --enable-nonfree
 make
 make install
-sudo cp ffmpeg /usr/bin/
+sudo cp ffmpeg /usr/local/bin/
 make distclean
 hash -r
 ffmpeg 2>&1 | head -n1
